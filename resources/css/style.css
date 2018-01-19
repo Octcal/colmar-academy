@@ -13,7 +13,7 @@ html {
 /* ------------------------------ */
 /* Header */
 
-/* Header Container Sizing & Style*/
+/* Header Container Sizing & Style */
 header {
     position: fixed;
     height: 64px;
@@ -27,7 +27,7 @@ header {
     align-items: center;
 }
 
-/* Brand & "Academy" Text Sizing & Style*/
+/* Brand & "Academy" Text Sizing & Style */
 .brand p {
     color: grey;
     font-family: 'Open Sans', Helvetica, sans-serif;
