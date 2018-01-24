@@ -16,6 +16,7 @@ html {
 /* Header Container Sizing & Style */
 header {
     position: fixed;
+    background-color: white;
     height: 64px;
     width: 100%;
     align-items: center;
@@ -79,4 +80,16 @@ header {
 }
 
 /* ------------------------------ */
-/* Media Queries */
+/* Headline */
+
+.headline {
+    top: 64px;
+    position: relative;
+    background-color: #dbdbdb;
+}
+
+.headline img {
+    width: 60%;
+    height: auto;
+    padding: 32px 24px 32px 24px;
+}
