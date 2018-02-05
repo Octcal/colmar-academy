@@ -4,8 +4,8 @@
 }
 
 .container {
-    margin: 0 auto;
     width: 960px;
+    margin: 0 auto;
 }
 
 /* ------------------------------ */
@@ -19,11 +19,9 @@ html {
 /* Header */
 
 /* Header Container Sizing & Style */
-header {
-    position: fixed;
+#header {
     background-color: white;
     height: 64px;
-    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -53,14 +51,13 @@ header {
 
 /* Logo Sizing & Style */
 .brand img {
-    padding: 3px 0 0 24px;
+    padding: 3px 0 0 0;
     width: 2em;
 }
 
 /* Desktop Navigation Container (Ul) Sizing & Style */
 .desktopNav {
     list-style: none;
-    margin-right: 24px;
 }
 
 /* Desktop Navigation (Li) Sizing & Style */
@@ -71,7 +68,7 @@ header {
 
 /* Desktop Navigation Anchor (a) Sizing & Style */
 .desktopNav li a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -81,20 +78,53 @@ header {
 
 /* Desktop Navigation Anchor (a) Sizing & Style - ON HOVER */
 .desktopNav li a:hover {
-    color: grey;
+    color: rgb(129, 129, 129);
 }
 
 /* ------------------------------ */
 /* Headline */
 
 .headline {
-    top: 64px;
-    position: relative;
     background-color: #dbdbdb;
 }
 
 .headline img {
     width: 60%;
     height: auto;
-    padding: 32px 24px 32px 24px;
+    margin: 32px 24px 32px 24px;
+}
+
+.headlineText {
+    width: 40%;
+    flex-flow: wrap column;
+    justify-content: center;
+    line-height: 1.1;
+}
+
+.headlineText h1 {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.headlineText h2 {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.headlineText button {
+    color: rgb(255, 255, 255);
+    background-color:rgb(51, 51, 51);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    border: 0;
+    padding: 8px 0;
+    width: 85%;
 }
