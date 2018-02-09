@@ -9,12 +9,6 @@
 }
 
 .mainImg {
-    width: 576px;
-    height: auto;
-    margin: 32px 24px 32px 24px;
-}
-
-.mainImgTest {
     width: 100%;
     height: auto;
 }
@@ -37,9 +31,13 @@
     font-size: 1.5rem;
 }
 
-.testDiv {
+.imgContainer {
     width: 528px;
     margin: 32px 24px 32px 24px;
+}
+
+.infoCard {
+
 }
 
 /* ------------------------------ */
@@ -156,6 +154,13 @@ html {
 /* ------------------------------ */
 /* Information Section Styles */
 
-.informationImg {
-    
+#infoH2 {
+    margin: 32px 0 24px 0;
+    font-size: 1.7rem;
+}
+
+.infoParagraph {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgb(51, 51, 51);
 }
