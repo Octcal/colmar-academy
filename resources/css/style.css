@@ -8,6 +8,40 @@
     margin: 0 auto;
 }
 
+.mainImg {
+    width: 576px;
+    height: auto;
+    margin: 32px 24px 32px 24px;
+}
+
+.mainImgTest {
+    width: 100%;
+    height: auto;
+}
+
+.mainInfo {
+    width: 384px;
+}
+
+.mainH1 {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.mainH2 {
+    color: rgb(51, 51, 51);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.testDiv {
+    width: 528px;
+    margin: 32px 24px 32px 24px;
+}
+
 /* ------------------------------ */
 /* Base Styles */
 html {
@@ -84,28 +118,18 @@ html {
 /* ------------------------------ */
 /* Headline */
 
+/* Background Color for Headline Section */
 .headline {
     background-color: #dbdbdb;
 }
 
-.headline img {
-    width: 60%;
-    height: auto;
-    margin: 32px 24px 32px 24px;
-}
-
 .headlineText {
-    width: 40%;
     flex-flow: wrap column;
     justify-content: center;
     line-height: 1.1;
 }
 
 .headlineText h1 {
-    color: rgb(51, 51, 51);
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -127,4 +151,11 @@ html {
     border: 0;
     padding: 8px 0;
     width: 85%;
+}
+
+/* ------------------------------ */
+/* Information Section Styles */
+
+.informationImg {
+    
 }
